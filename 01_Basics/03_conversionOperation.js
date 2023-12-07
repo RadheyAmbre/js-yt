@@ -61,12 +61,12 @@ let str3 = str1 + str2
 let n1, n2, n3
 
 n1 = n2 = n3 = 2 + 2
-console.log(n1, n2, n3);
+// console.log(n1, n2, n3);
 
 let gameCounter = 100
 
 gameCounter++   // postfix
-console.log(gameCounter);
+// console.log(gameCounter);
 
 ++gameCounter   // prefix
-console.log(gameCounter);
+// console.log(gameCounter);
