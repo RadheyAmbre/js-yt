@@ -60,3 +60,29 @@ let myFunct = function() {
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+// ---------------------------------------------------
+
+
+//  Stack memoery (Primitive)
+let myYtName = "rdxgaming"
+
+let anotherName = myYtName
+anotherName = "raragaming"
+
+console.log(myYtName);
+console.log(anotherName);
+
+//  Heap memoery (Non Primitive)
+let userOne = {
+    mail: "rdx@gmail.com",
+    upi: "rdx@icici"
+}
+
+let userTwo = userOne
+
+userTwo.mail = "rara@gmail.com"
+
+console.log(userOne.mail);
+console.log(userTwo.mail);
