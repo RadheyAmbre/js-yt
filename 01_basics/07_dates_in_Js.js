@@ -22,7 +22,7 @@ let myDate = new Date()
 // let myCreatedDate = new Date(2045, 3, 19)
 // let myCreatedDate = new Date(2045, 3, 19, 17, 30)
 // let myCreatedDate = new Date("2032-04-19")
-let myCreatedDate = new Date("04-19-2032")
+// let myCreatedDate = new Date("04-19-2032")
 // console.log(myCreatedDate.toLocaleString());
 
 

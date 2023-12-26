@@ -1,12 +1,11 @@
-let score = "23rara"
+let score = "23rara";
 
 // console.log(typeof score);
 // console.log(typeof (score));
 
-let valueInNumber = Number(score)
+let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
-
 
 // "33" => 33
 // "33" => Not a Number NaN
@@ -14,25 +13,25 @@ let valueInNumber = Number(score)
 // null => 0
 // undefined => NaN
 
-let isLoggedIn = 0
+let isLoggedIn = 0;
 
-let boleanIsLoggedIn = Boolean(isLoggedIn)
+let boleanIsLoggedIn = Boolean(isLoggedIn);
 // console.log(boleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // " " => false
 // "radhey" => true
 
-let someNumber = 33
+let someNumber = 33;
 
-let stringNumber = String(someNumber)
+let stringNumber = String(someNumber);
 // console.log(typeof stringNumber);
 // console.log(stringNumber);
 
 // ********** Operations **********
 
-let value = 3
-let negValue = -value
+let value = 3;
+let negValue = -value;
 
 // console.log(negValue);
 
@@ -43,11 +42,10 @@ let negValue = -value
 // console.log(2/2);   // Divide
 // console.log(2%2);    // Modulas
 
+let str1 = "hello";
+let str2 = " radhey";
 
-let str1 = "hello"
-let str2 = " radhey"
-
-let str3 = str1 + str2
+let str3 = str1 + str2;
 // console.log(str3);
 
 // console.log("1" + 2);
@@ -58,15 +56,15 @@ let str3 = str1 + str2
 // console.log(+true);
 // console.log(+"");
 
-let n1, n2, n3
+let n1, n2, n3;
 
-n1 = n2 = n3 = 2 + 2
+n1 = n2 = n3 = 2 + 2;
 // console.log(n1, n2, n3);
 
-let gameCounter = 100
+let gameCounter = 100;
 
-gameCounter++   // postfix
+// gameCounter++; // postfix
 // console.log(gameCounter);
 
-++gameCounter   // prefix
+// ++gameCounter; // prefix
 // console.log(gameCounter);

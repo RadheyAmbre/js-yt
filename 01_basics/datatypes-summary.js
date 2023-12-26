@@ -71,8 +71,8 @@ let myYtName = "rdxgaming"
 let anotherName = myYtName
 anotherName = "raragaming"
 
-console.log(myYtName);
-console.log(anotherName);
+// console.log(myYtName);
+// console.log(anotherName);
 
 //  Heap memoery (Non Primitive)
 let userOne = {
@@ -84,5 +84,5 @@ let userTwo = userOne
 
 userTwo.mail = "rara@gmail.com"
 
-console.log(userOne.mail);
-console.log(userTwo.mail);
+// console.log(userOne.mail);
+// console.log(userTwo.mail);

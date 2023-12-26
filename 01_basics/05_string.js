@@ -31,4 +31,4 @@ const url = "https://radhey%20ambre.com/radhey%20ambre"
 
 // console.log(url.includes('radhey'));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
