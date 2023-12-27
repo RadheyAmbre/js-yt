@@ -51,7 +51,6 @@ JsUser.greetingTwo = function() {
 }
 
 // console.log(JsUser.greeting);
-// function return-back // func not executed    
-console.log(JsUser.greeting());
-// TypeError: JsUser.greeting is not a function
-console.log(JsUser.greetingTwo());
+// function return-back // func not executed // [Function (anonymous)]
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
