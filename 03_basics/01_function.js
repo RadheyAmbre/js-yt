@@ -48,3 +48,47 @@ function loginUserMessage(username = "rara") {
 // console.log(loginUserMessage());
 // if valueis not defined the parameter's value will work
 // console.log(loginUserMessage("radhey"));
+
+
+
+
+// Rest 
+function calCartPrice(...num1) {
+  return num1
+}
+// console.log(calCartPrice(200, 400, 550));
+
+function calCartPrice(val1, val2, ...num1) {
+  return num1
+}
+// console.log(calCartPrice(200, 400, 550, 2000));
+// Op .: [550 , 2000]
+// val1 = 200 -- val2=400 -- num1= 550, 2000
+
+
+// passing Object in function()
+const user = {
+  username: "radhey",
+  total: 5000
+}
+
+function handleObject(anyObject) {
+  console.log(`Username is ${anyObject.username} and total cost is ${anyObject.total}`);
+}
+
+// handleObject(user) // 1
+// handleObject({
+//   username: "harsh",  // 2
+//   total: 25000
+// })
+
+
+// passing Array in function()
+const myNewArray = [200, 400, 600, 800]
+
+function returnSecondValue(getArray) {
+  return getArray[3];
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100, 300, 500, 700]));
