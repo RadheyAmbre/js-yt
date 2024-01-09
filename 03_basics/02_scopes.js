@@ -1,15 +1,17 @@
-// var c = 300
+var c = 300;
 let a = 300;
 
 if (true) {
   let a = 10;
   const b = 20;
-  // c = 30
+  c = 30;
 
   // console.log("Block scope ", a);
+  // console.log(b);
+  // console.log(c);
 }
 
-// console.log("Global scope ",a);
+// console.log("Global scope ", a);
 // console.log(b);
 // console.log(c);
 
@@ -38,12 +40,12 @@ if (true) {
 
 // -------------------------------------------------
 
-console.log(addone(5));
+// console.log(addone(5));
 function addone(num) {
   return num + 1;
 }
 
-addtwo(5);
+// addtwo(5);
 // Cannot access 'addtwo' before initialization
 const addtwo = function (num) {
   return num + 2;

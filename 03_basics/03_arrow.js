@@ -4,8 +4,8 @@ const user = {
   price: 999,
 
   welcomeMessage: function () {
-    console.log(`${this.username}, welcome to website`);
-    // console.log(this);  // this is talikng about current context init.
+    // console.log(`${this.username}, welcome to website`);
+    // console.log(this); // this is talikng about current context init.
   },
 };
 // user.welcomeMessage();
@@ -33,7 +33,6 @@ const user = {
 
 // chai();
 
-
 // const addtwo = (num1, num2) => {
 //   return num1+num2;  // Explicit return
 // }
@@ -42,6 +41,6 @@ const user = {
 
 // const addtwo = (num1, num2) => (num1+num2); // Implicit return
 
-const addtwo = (num1, num2) => ({username: "radhey"});
+const addtwo = (num1, num2) => ({ username: "radhey" });
 
-console.log(addtwo(3, 2));
+// console.log(addtwo(3, 2));
