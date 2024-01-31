@@ -9,7 +9,7 @@ const repoCount = 2
 const gameName = new String('ryae-gaming')
 
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName.__proto__); // prototype
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -19,7 +19,7 @@ const gameName = new String('ryae-gaming')
 const newString = gameName.substring(0, 4)
 // console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, -2)
 // console.log(anotherString);
 
 const newStringOne = "   radhey   "

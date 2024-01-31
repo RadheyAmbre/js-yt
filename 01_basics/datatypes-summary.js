@@ -65,7 +65,7 @@ let myFunct = function() {
 // ---------------------------------------------------
 
 
-//  Stack memoery (Primitive)
+//  Stack memory (Primitive)
 let myYtName = "rdxgaming"
 
 let anotherName = myYtName
@@ -74,7 +74,7 @@ anotherName = "raragaming"
 // console.log(myYtName);
 // console.log(anotherName);
 
-//  Heap memoery (Non Primitive)
+//  Heap memory (Non Primitive)
 let userOne = {
     mail: "rdx@gmail.com",
     upi: "rdx@icici"

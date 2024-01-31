@@ -6,7 +6,7 @@ const balance = new Number(100)
 
 // console.log(balance.toString());
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
+// console.log(balance.toFixed(2));    // Add decimals(100.00)
 
 
 const otherNum1 = 23.8922
@@ -18,7 +18,8 @@ const otherNum3 = 1234.8922
 // console.log(otherNum3.toPrecision(3));
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));  
+// converts into Indian rupees (10,00,000)
 
 // -------------------------------------------------
 
