@@ -3,16 +3,22 @@ const dc_heros = ["superman", "flash", "batman"]
 
 // marvel_heros.push(dc_heros)
 // console.log(marvel_heros);
+// [ 'ironman', 'spiderman', 'thor', ['superman', 'flash', 'batman'] ]
 
 // const heros = marvel_heros.concat(dc_heros)
 // console.log(heros);
+// [ 'ironman', 'spiderman', 'thor', 'superman', 'flash', 'batman' ]
 
-// const all_heros = [...marvel_heros, ...dc_heros, ...heros]
+// const all_heros = [...marvel_heros, ...dc_heros]
 // console.log(all_heros);
+// [ 'ironman', 'spiderman', 'thor', 'superman', 'flash', 'batman' ]
 
-const nested_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
-const clean_array = nested_array.flat(2)
+// const nested_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+// const clean_array = nested_array.flat()
+// [ 1, 2, 3, 4, 5, 6, 7, 6, 7, [ 4, 5 ] ]
+// const clean_array = nested_array.flat(2)
+// [1, 2, 3, 4, 5,6, 7, 6, 7, 4,5]
 // console.log(clean_array);
 
 
@@ -27,5 +33,5 @@ const s1 = 100
 const s2 = 200
 const s3 = 300
 
-console.log(Array.of(s1, s2, s3));
+// console.log(Array.of(s1, s2, s3));
 // Creates new array from given values

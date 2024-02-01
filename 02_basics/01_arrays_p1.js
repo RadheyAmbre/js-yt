@@ -6,14 +6,14 @@ const myArr2 = new Array(1, 2, 3, 4, 5)
 
 // Array method
 
-// myArr.push(6)
-// myArr.pop()
+// myArr.push(6)    // add @ end
+// myArr.pop()  // remove @ end
 
-// myArr.unshift(-1)
-// myArr.shift()
+// myArr.unshift(-1)    // add @ beginning
+// myArr.shift()   // remove @ beginning
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(9));
+// console.log(myArr.includes(5));     // return true or false if the element is in array
+// console.log(myArr.indexOf(9));         // return index of the element
 
 // const strArr = myArr.join()
 
