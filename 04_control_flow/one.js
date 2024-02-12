@@ -27,3 +27,19 @@ const balance = 1000
 // if (balance > 500) console.log("test"), console.log("test2");   
 // Multiple statements can be written in one line separated by commas
 // but we dont use this kind of code.
+
+// AND
+const userLoggedIn = true
+const debitCard = true
+
+if (userLoggedIn && debitCard) {
+    console.log("Allow to buy course");
+}
+
+// OR
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged in");
+}
