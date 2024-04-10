@@ -10,7 +10,6 @@ const gameName = new String('ryae-gaming')
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__); // prototype
-
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
 // console.log(gameName.charAt(2));
