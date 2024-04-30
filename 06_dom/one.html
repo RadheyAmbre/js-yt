@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>DOM learning</title>
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: #fff;
+        }
+
+        #main_div {
+            width: 400px;
+            margin: 10px auto;
+            border: 4px solid #cccccc;
+            padding: 5px;
+        }
+
+        .floated_div {
+            float: left;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #990000;
+            margin: 10px;
+        }
+    </style>
 </head>
-<body>
+
+<body class="bg-black">
 
     <!-- DOM -- Document Object Mode -->
-    
-    <div class="bg-black">
-        <h1 class="heading">DOM learning on Chai aur Code</h1>
+
+    <div>
+        <h1 id="title" class="heading">DOM learning on Chai aur Code</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
+        <input type="text" name="" id="">
+        <input type="tel" name="" id="">
     </div>
 
+    <ul>
+        <li class="list-item">one</li>
+        <li class="list-item">two</li>
+        <li class="list-item">three</li>
+        <li class="list-item">three</li>
+    </ul>
+
+    <div id="main_div">
+        <p>Clear Float Demo</p>
+        <div class="floated_div"></div>
+        <div class="floated_div"></div>
+        <div class="floated_div"></div>
+        <div class="floated_div"></div>
+        <div class="floated_div"></div>
+        <div style="clear:both"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
