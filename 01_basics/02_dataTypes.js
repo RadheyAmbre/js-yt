@@ -16,11 +16,11 @@ let isLoggedIn = false
 // bigint
 // String => ""/''
 // boolean => true/false
-// null => standalone value
-// undefined
+// null => standalone value eg.:let state = null
+// undefined => eg.:let state;
 // symbol => unique
 
 // object
-
+console.log(typeof ""); //string
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
